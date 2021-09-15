@@ -1,0 +1,44 @@
+.grid {
+	width: 480px;
+	height: 480px;
+	border: solid black 1px;
+	display: flex;
+	flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('https://i.imgur.com/XKSgcKw.png');
+}
+
+
+body{
+    background-color: black;
+  }
+
+.score{
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 49%;
+    color: white;
+}
+
+.grid div {
+	width: 32px;
+	height: 32px;
+}
+
+.invader {
+    background-image: url('https://i.imgur.com/o8GLTm0.png');	
+}
+
+.player {
+    background-image: url('https://i.imgur.com/zZBxfxm.png');
+}
+
+.laser {
+    background-image: url('https://i.imgur.com/zZBxfxm.png');
+}
+
+.boom {
+    background-image: url('https://i.imgur.com/stNdIxR.png');
+}

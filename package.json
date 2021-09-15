@@ -1,0 +1,16 @@
+{
+  "name": "igrica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "invaders.js",
+  "scripts": {
+    "deploy": "gh-pages -d igrica"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://kikiriki367.github.io/igrica",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

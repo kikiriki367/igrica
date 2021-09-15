@@ -1,0 +1,43 @@
+.grid {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('https://i.imgur.com/XKSgcKw.png');
+  }
+
+  body{
+    background-color: black;
+  }
+
+  .start{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+  }
+
+  .score{
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 49%;
+    color: white;
+  }
+
+  .grid div {
+    width: 32px;
+    height: 32px;
+  }
+
+  .snake {
+    background-image: url('https://i.imgur.com/zZBxfxm.png');
+  }
+  .apple {
+    background-image: url('https://i.imgur.com/stNdIxR.png');
+  }
